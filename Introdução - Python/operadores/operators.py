@@ -33,3 +33,9 @@ print(10 ** (2 * 2))
 
 # Divisão e multiplicação têm a mesma precedência, então são avaliadas da esquerda para a direita
 print(10 / 2 * 4)
+
+#Exemplo de percentual
+preco = 100
+desconto = 20 / 100  # 20% de desconto
+preco_com_desconto = preco * (1 - desconto)
+print(preco_com_desconto)  # 80.0
