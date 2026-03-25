@@ -99,11 +99,12 @@ Projetos completos que simulam desafios do mundo real:
 
 ## 📈 Projetos do Portfólio
 
-  Projeto     Descrição
-  ----------- ------------------------------------------------
-  Projeto 1   Tratamento e limpeza de dados
-  Projeto 2   Pipeline de ETL com integração de dados
-  Projeto 3   Análise de dados + Machine Learning + Insights
+| Projeto   | Descrição                                      |
+| --------- | ---------------------------------------------- |
+| Projeto 1 | Tratamento e limpeza de dados                  |
+| Projeto 2 | Pipeline de ETL com integração de dados        |
+| Projeto 3 | Análise de dados + Machine Learning + Insights |
+
 ------------------------------------------------------------------------
 
 ## 📌 Status
