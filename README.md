@@ -101,9 +101,9 @@ Projetos completos que simulam desafios do mundo real:
 
 | Projeto   | Descrição                                      |
 | --------- | ---------------------------------------------- |
-| Projeto 1 | Tratamento e limpeza de dados                  |
-| Projeto 2 | Pipeline de ETL com integração de dados        |
-| Projeto 3 | Análise de dados + Machine Learning + Insights |
+| Projeto 1 | Pipeline de ETL com integração de dados        |
+| Projeto 2 | Dashboard de Vendas com Excel                  |
+| Projeto 3 | Redução de custos com AWS                      |
 
 ------------------------------------------------------------------------
 
