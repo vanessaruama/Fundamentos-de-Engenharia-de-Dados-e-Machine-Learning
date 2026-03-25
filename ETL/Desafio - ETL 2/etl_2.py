@@ -1,38 +1,34 @@
-#Praticando Fundamentos de ETL com Python
 # Desafio
-# Você faz parte do time de tecnologia de uma empresa que desenvolve sistemas 
-# para otimizar a gestão de milhares de negócios. Seu desafio é criar uma 
-# solução simples de ETL (Extract, Transform, Load) para automatizar o 
-# processamento de dados de vendas enviados por parceiros. Cada linha 
-# recebida contém o nome do produto, a quantidade vendida e o valor unitário, 
-# separados por vírgulas. Seu sistema precisa extrair esses dados, calcular 
-# o valor total da venda (quantidade multiplicada pelo valor unitário) e 
-# gerar uma string formatada para facilitar a integração com outros sistemas internos. 
-# Essa automação tornará os processos empresariais mais eficientes, escaláveis e 
-# inteligentes, reduzindo erros manuais e acelerando a tomada de decisão.
+# Você faz parte do time de tecnologia de uma empresa que
+#  desenvolve sistemas para automatizar processos empresariais
+#  em larga escala. Seu time está criando uma solução de ETL (Extract, Transform, Load)
+#  para ajudar negócios a processar dados de clientes de forma eficiente e 
+# inteligente. O objetivo é transformar informações brutas recebidas de 
+# diferentes setores em dados padronizados, prontos para análise e tomada de decisão. 
+# Para isso, você precisa criar um script que leia uma linha de dados extraída de 
+# um sistema legado, realize uma transformação específica e devolva o resultado 
+# pronto para ser carregado em um novo sistema. O sucesso dessa tarefa é fundamental 
+# para garantir que os processos empresariais sejam mais ágeis, escaláveis e confiáveis.
 
-# Implemente um programa que leia uma linha contendo o nome do produto, 
-# a quantidade vendida e o valor unitário, separados por vírgulas. 
-# O programa deve calcular o valor total da venda (quantidade * valor unitário, 
-# ambos inteiros) e retornar uma string no formato: "produto: total". Não utilize 
-# bibliotecas externas, apenas recursos padrão da linguagem.
+# Implemente um programa que leia uma string contendo nomes de clientes separados 
+# por vírgula e espaço. Seu programa deve transformar cada nome para letras maiúsculas, 
+# remover espaços extras antes e depois de cada nome, e retornar os nomes transformados, 
+# separados por ponto e vírgula e um espaço. Não utilize bibliotecas externas. 
+# O formato de entrada e saída deve ser exatamente como especificado.
 
 # Entrada
-# Uma única linha contendo três valores separados por vírgula: o nome do produto (string),
-# a quantidade vendida (inteiro) e o valor unitário (inteiro).
+# Uma única linha contendo nomes de clientes separados por vírgula e espaço. 
+# Os nomes podem conter espaços extras antes ou depois de cada nome.
 
 # Saída
-# Uma única linha no formato "produto: total", onde produto é o nome do produto e 
-# total é o valor total da venda (quantidade multiplicada pelo valor unitário).
+# Uma única linha com os nomes em letras maiúsculas, sem espaços extras, 
+# separados por ponto e vírgula seguido de espaço.
 
-# Leitura da linha de entrada
-entrada = input().strip().split(',')
-produto = entrada[0]
-quantidade = int(entrada[1])
-valor_unitario = int(entrada[2])
-total = quantidade * valor_unitario
+# Lê a linha de entrada contendo nomes separados por vírgula e espaço
+entrada = input()
 
-# TODO: Separe os campos da entrada e calcule o valor total da venda (quantidade * valor unitário)
-# Dica: Use split(',') para separar os valores e int() para converter para inteiro
-
-print(f"{produto}: {total}")  # Exemplo de saída formatada
+# TODO: Para cada nome, remova espaços extras e transforme em maiúsculas
+# Dica: Use split(',') para separar os nomes e depois aplique strip() e upper() em cada um
+nomes = [nome.strip().upper() for nome in entrada.split(',')]
+# Exemplo de saída esperada: 'ANA; BRUNO; CARLA'
+print('; '.join(nomes))
