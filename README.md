@@ -11,11 +11,11 @@ de dados, ETL, cloud e Machine Learning.
 
 Este bootcamp foi projetado para construir uma base sólida em:
 
--   🐍 Python para dados\
--   🗄️ Bancos de dados (SQL e modelagem)\
--   🔄 Processos de ETL (Extract, Transform, Load)\
--   ☁️ Fundamentos de Cloud Computing\
--   🤖 Machine Learning\
+-   🐍 Python para dados
+-   🗄️ Bancos de dados (SQL e modelagem)
+-   🔄 Processos de ETL (Extract, Transform, Load)
+-   ☁️ Fundamentos de Cloud Computing
+-   🤖 Machine Learning
 -   🧠 IA Generativa e integração com LLMs
 
 Ao longo de **61 horas de conteúdo aplicado**, o programa combina teoria
@@ -23,8 +23,8 @@ e prática com foco em problemas reais do mercado de dados.
 
 Além disso, o bootcamp inclui:
 
--   🎓 Mentorias ao vivo com especialistas\
--   💻 Desafios práticos de código\
+-   🎓 Mentorias ao vivo com especialistas
+-   💻 Desafios práticos de código
 -   📊 3 projetos completos para portfólio
 
 ------------------------------------------------------------------------
@@ -46,8 +46,8 @@ Dados**, passando por todo o ciclo:
 Aulas em vídeo curtas e objetivas, focadas em um conteúdo por vez,
 permitindo aprendizado no seu próprio ritmo.
 
--   Explicações práticas\
--   Exercícios aplicados\
+-   Explicações práticas
+-   Exercícios aplicados
 -   Avaliações ao final de cada módulo
 
 ------------------------------------------------------------------------
@@ -56,9 +56,9 @@ permitindo aprendizado no seu próprio ritmo.
 
 Sessões ao vivo com especialistas da área, com foco em:
 
--   Aprofundamento técnico\
--   Discussão de casos reais\
--   Tira-dúvidas\
+-   Aprofundamento técnico
+-   Discussão de casos reais
+-   Tira-dúvidas
 -   Orientação de carreira
 
 ------------------------------------------------------------------------
@@ -67,8 +67,8 @@ Sessões ao vivo com especialistas da área, com foco em:
 
 Atividades práticas para reforçar o aprendizado:
 
--   Resolução de problemas reais\
--   Desenvolvimento do raciocínio lógico\
+-   Resolução de problemas reais
+-   Desenvolvimento do raciocínio lógico
 -   Prática com Python e estruturas de dados
 
 ------------------------------------------------------------------------
@@ -77,22 +77,22 @@ Atividades práticas para reforçar o aprendizado:
 
 Projetos completos que simulam desafios do mundo real:
 
--   Integração de diferentes conhecimentos\
--   Construção de pipelines de dados\
--   Geração de insights para tomada de decisão\
+-   Integração de diferentes conhecimentos
+-   Construção de pipelines de dados
+-   Geração de insights para tomada de decisão
 -   Criação de portfólio profissional
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tecnologias Utilizadas
 
--   Python\
--   SQL\
--   Pandas\
--   NumPy\
--   Ferramentas de ETL\
--   Cloud (conceitos e práticas)\
--   Machine Learning\
+-   Python
+-   SQL
+-   Pandas
+-   NumPy
+-   Ferramentas de ETL
+-   Cloud (conceitos e práticas)
+-   Machine Learning
 -   APIs e LLMs
 
 ------------------------------------------------------------------------
@@ -104,25 +104,6 @@ Projetos completos que simulam desafios do mundo real:
   Projeto 1   Tratamento e limpeza de dados
   Projeto 2   Pipeline de ETL com integração de dados
   Projeto 3   Análise de dados + Machine Learning + Insights
-
-------------------------------------------------------------------------
-
-## 🚀 Como Utilizar
-
-1.  Clone o repositório:
-
-``` bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2.  Acesse a pasta:
-
-``` bash
-cd bootcamp-engenharia-dados
-```
-
-3.  Explore os diretórios de cursos, desafios e projetos.
-
 ------------------------------------------------------------------------
 
 ## 📌 Status
@@ -135,18 +116,11 @@ cd bootcamp-engenharia-dados
 
 Ao longo deste bootcamp, estou desenvolvendo:
 
--   Pensamento analítico para dados\
--   Construção de pipelines de dados\
--   Modelagem e armazenamento eficiente\
--   Aplicação de Machine Learning\
+-   Pensamento analítico para dados
+-   Construção de pipelines de dados
+-   Modelagem e armazenamento eficiente
+-   Aplicação de Machine Learning
 -   Uso de IA Generativa em soluções de dados
-
-------------------------------------------------------------------------
-
-## 🤝 Contribuição
-
-Este repositório faz parte do meu processo de aprendizado, mas sugestões
-e melhorias são sempre bem-vindas!
 
 ------------------------------------------------------------------------
 
