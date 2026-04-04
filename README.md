@@ -127,5 +127,4 @@ Ao longo deste bootcamp, estou desenvolvendo:
 
 ## 📬 Contato
 
--   LinkedIn: seu-link-aqui\
--   GitHub: seu-usuario-aqui
+-   LinkedIn: https://www.linkedin.com/in/vanessa-ruama/
